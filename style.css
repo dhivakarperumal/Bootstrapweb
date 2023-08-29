@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Noto+Sans+KR:wght@100;300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+#navbars
+{
+    position: sticky;
+    top: 0px;
+}
+.navbar
+{
+    background-color: white !important;
+}
+.navbar-brand
+{
+    margin-left: 60px;
+}
+.navbar-brand img
+{
+    width: 110px;
+    height: 30px;
+}
+button
+{
+    border: none;
+    outline: none;
+}
+.nav-link
+{
+    padding-right: 20px !important;
+    color: black !important;
+    font-weight: bolder;
+}
+.nav-link sup
+{
+    color: orange;
+}
+.nav-link span
+{
+    color:rgb(8, 161, 8);
+}
+.nav-link:hover
+{
+    background-color: rgb(179, 51, 72);
+    color: white !important;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.navbar-nav
+{
+    margin-right: 50px !important;
+}
+/* ******************************************** */
+#home , #about , #services , #gallery ,#contact
+{
+    width: 100%;
+    height: 98vh;
+    position: static;
+    
+    
+}
+#home img
+{
+    height: 93vh;
+    background-position: center !important;
+    object-position: cover;
+}
+
+#about img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#services span
+{
+   color: green;
+   margin-left: 10px;
+}
+#services .band
+{
+    /* background-color: orange; */
+    font-weight: bolder;
+    padding: 0px 0px;
+    color:green;
+    font-size: 27px;
+    margin-left: 60px;
+}
+#services p
+{
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.btn1
+{
+    width: 150px;
+    height: 50px;
+    background-color:orange ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.btn1:hover
+{
+    background-color:rgb(170, 53, 53);
+    color: white;
+}
+
+.btn2
+{
+    width: 150px;
+    height: 50px;
+    background-color:orange ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 200px;
+}
+.btn2:hover
+{
+    background-color:rgb(170, 53, 53);
+    color: white;
+}
+#services img
+{
+    height: 200px; 
+}
+#gallery img
+{
+    height: 200px;
+}
+#footer
+{
+    margin-top: 200px;
+    background: black;
+    height: auto;
+    width: 100%;
+}
+
+#footer i
+{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+
+#coresal-img
+{
+   width: 100vw;
+   height: 93vh;
+   background-size: cover;
+}
+
+.img-1
+{
+    
+   
+    background-image: url(images/com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.img-2
+{
+    background-image: url(images/IMG2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-3
+{
+    background-image: url(images/1324985.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boxes:hover
+{
+    box-shadow: 3px 7px 5px 1px rgba(99,84,84,0.75);
+    -webkit-box-shadow: 3px 7px 5px 1px rgba(99,84,84,0.75);
+    -moz-box-shadow: 3px 7px 5px 1px rgba(99,84,84,0.75);
+}
+#services  img:hover
+{
+    transform: scale(0.95);
+}
+#gallery img:hover
+{
+    transform: scale(0.95);
+}
